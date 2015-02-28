@@ -14,6 +14,8 @@
 		8C438DE11A851C9400C3BB02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C438DE01A851C9400C3BB02 /* Images.xcassets */; };
 		8C438DE41A851C9400C3BB02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C438DE21A851C9400C3BB02 /* LaunchScreen.xib */; };
 		8C438DF01A851C9400C3BB02 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C438DEF1A851C9400C3BB02 /* InstagramTests.swift */; };
+		8CAE65021AA18D900038896B /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE64F81AA18D900038896B /* bg2.png */; };
+		8CAE65071AA1921C0038896B /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE65061AA1921C0038896B /* bg3.png */; };
 		8CC3E47E1A8E5C740024E828 /* LogInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3E47D1A8E5C740024E828 /* LogInTextField.swift */; };
 		8CC3E4981A8E96E30024E828 /* mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC3E4911A8E96E20024E828 /* mail-icon.png */; };
 		8CC3E4991A8E96E30024E828 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC3E4921A8E96E30024E828 /* logo.png */; };
@@ -59,6 +61,8 @@
 		8C438DE91A851C9400C3BB02 /* InstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C438DEE1A851C9400C3BB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C438DEF1A851C9400C3BB02 /* InstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTests.swift; sourceTree = "<group>"; };
+		8CAE64F81AA18D900038896B /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		8CAE65061AA1921C0038896B /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
 		8CC3E47D1A8E5C740024E828 /* LogInTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInTextField.swift; sourceTree = "<group>"; };
 		8CC3E4911A8E96E20024E828 /* mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-icon.png"; sourceTree = "<group>"; };
 		8CC3E4921A8E96E30024E828 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 		8CC3E45E1A8ABE5E0024E828 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8CAE65061AA1921C0038896B /* bg3.png */,
+				8CAE64F81AA18D900038896B /* bg2.png */,
 				8CC3E4A51A8EA2BE0024E828 /* lock-icon.png */,
 				8CC3E4A11A8E9CAC0024E828 /* bg.png */,
 				8CC3E4911A8E96E20024E828 /* mail-icon.png */,
@@ -292,7 +298,9 @@
 				8C438DDF1A851C9400C3BB02 /* Main.storyboard in Resources */,
 				8CC3E49E1A8E96E30024E828 /* button.png in Resources */,
 				8CC3E4991A8E96E30024E828 /* logo.png in Resources */,
+				8CAE65071AA1921C0038896B /* bg3.png in Resources */,
 				8CC3E49A1A8E96E30024E828 /* logo-purple.png in Resources */,
+				8CAE65021AA18D900038896B /* bg2.png in Resources */,
 				8CC3E4981A8E96E30024E828 /* mail-icon.png in Resources */,
 				8CC3E49D1A8E96E30024E828 /* camera.png in Resources */,
 				8C438DE41A851C9400C3BB02 /* LaunchScreen.xib in Resources */,

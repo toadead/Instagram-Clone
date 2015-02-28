@@ -42,7 +42,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     }
     
     func toggleSignUpAndLogIn(button: UIButton) {
-        //clearTextFieldsInputs()
+        clearTextFieldsInputs()
         button.setBackgroundImage(UIImage(named: "button.png"), forState: UIControlState.Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         
@@ -191,6 +191,13 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     func setupScrollViewAndKeyboardNotification() {
         scrollView.contentSize = CGSizeMake(1000, 1000)
         registerForKeyboardNotifications()
+        let tapScroll = UITapGestureRecognizer(target: self, action: "endEditingAfterTappingScrollView")
+        tapScroll.cancelsTouchesInView = false
+        scrollView.addGestureRecognizer(tapScroll)
+    }
+    
+    func endEditingAfterTappingScrollView() {
+        self.view.endEditing(true)
     }
     
     func registerForKeyboardNotifications() {
